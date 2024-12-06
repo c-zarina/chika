@@ -9,10 +9,11 @@
 <body>
     <div class="container">
     <img src="logo.png">
-    <form>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="9d262af7-4075-4194-89c5-ce3a320e4140">
         <h2 style="text-align: center; color: #533c01; letter-spacing: 500%;">CHIKA</h2>
-        <textarea rows="7" placeholder="Message here..." id="msg" required></textarea><br>
-        <button type="submit" name="send" onclick="button()">SEND</button>
+        <textarea rows="7" placeholder="Message here..." id="msg" name="text" required></textarea><br>
+        <button type="submit" onclick="button()">SEND</button>
     </form>
     </div>
 
